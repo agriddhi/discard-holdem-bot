@@ -1,0 +1,37 @@
+# Match logs and engine scratch output (regenerated on demand).
+logs_*/
+logs_bench_*
+logs_ab2_*
+logs_slowtest/
+logs_sweep_*
+logs_res_*
+logs_tgb*/
+logs_tfg_*/
+logs_v2_*
+logs_v3_*
+logs_lv*/
+logs_sty_*/
+logs_st2_111/
+logs_stage2/
+logs_det*/
+logs_tmp*/
+logs_paramtest/
+logs_ziptest/
+logs_probe/
+logs_agg111/
+logs_tough111/
+e2e_*/
+dist/
+*.zip
+!submission.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
